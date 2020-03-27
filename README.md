@@ -46,3 +46,7 @@ $ git clone https://github.com/baillieogrady/paige-sage
 ```
 $ git clone https://github.com/baillieogrady/paige-sage
 ```
+
+## Inspired by
+
+[kathrynmcclintock](http://www.kathrynmcclintock.com/)
