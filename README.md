@@ -6,6 +6,10 @@ Paige Sage is a custom WordPress theme built on the [Sage](https://github.com/ro
 
 [Demo](https://paigenicole.uk/)
 
+## Usage
+
+[Download](http://baillieogrady.com/downloads/paige-sage.zip) production build and upload via WordPress.
+
 ## Theme development
 
 ### Installation
