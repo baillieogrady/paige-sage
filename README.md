@@ -2,10 +2,19 @@
 [![devDependency Status](https://img.shields.io/david/dev/roots/sage.svg?style=flat-square)](https://david-dm.org/baillieogrady/mincaso-sage#info=devDependencies)
 
 ## What is Paige sage?
-Paige-sage is a custom WordPress theme built on the [Sage](https://github.com/roots/sage) starter theme.
+Paige Sage is a custom WordPress theme built on the [Sage](https://github.com/roots/sage) starter theme. This theme was inspired by [kathrynmcclintock](http://www.kathrynmcclintock.com/). It's inital purpose was to display a vertical split landing page that's populated with the pages/posts' featured image on the left and the Gutenberg blocks content on the right. 
 
-### Example
-[paigenicole.uk](https://paigenicole.uk/)
+[Demo](https://paigenicole.uk/)
+
+## Theme development
+
+### Installation
+
+Clone this repo into your WordPress themes directory
+
+```
+$ git clone https://github.com/baillieogrady/paige-sage
+```
 
 ### Requirements
 
@@ -16,16 +25,6 @@ Make sure all dependencies have been installed before moving on:
 * [Composer](https://getcomposer.org/download/)
 * [Node.js](http://nodejs.org/) >= 8.0.0
 * [Yarn](https://yarnpkg.com/en/docs/install)
-
-## Installation
-
-Install theme into the WordPress themes directory
-
-```
-$ git clone https://github.com/baillieogrady/paige-sage
-```
-
-## Theme development
 
 *See full roots sage source & setup [here](https://github.com/roots/sage)*
 
@@ -41,12 +40,3 @@ $ git clone https://github.com/baillieogrady/paige-sage
 * `yarn build` — Compile and optimize the files in your assets directory
 * `yarn build:production` — Compile assets for production
 
-## Contributing
-
-```
-$ git clone https://github.com/baillieogrady/paige-sage
-```
-
-## Inspired by
-
-[kathrynmcclintock](http://www.kathrynmcclintock.com/)
