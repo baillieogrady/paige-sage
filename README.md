@@ -1,14 +1,19 @@
 # Paige sage
 [![devDependency Status](https://img.shields.io/david/dev/roots/sage.svg?style=flat-square)](https://david-dm.org/baillieogrady/mincaso-sage#info=devDependencies)
 
-## What is Paige sage?
 Paige Sage is a custom WordPress theme built on the [Sage](https://github.com/roots/sage) starter theme. This theme was inspired by [kathrynmcclintock](http://www.kathrynmcclintock.com/). It's inital purpose was to display a vertical split landing page that's populated with the pages/posts' featured image on the left and the Gutenberg blocks content on the right. 
 
 [Demo](https://paigenicole.uk/)
 
 ## Usage
 
-[Download](http://baillieogrady.com/downloads/paige-sage.zip) production build and upload via WordPress.
+### Installation
+
+[Download](https://baillieogrady.com/downloads/paige-sage.zip) the production built theme and upload via the WordPress theme uploader at the following url on your website:
+
+```
+https://yourwebsite.com/wp-admin/theme-install.php
+```
 
 ## Theme development
 
