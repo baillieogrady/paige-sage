@@ -182,6 +182,20 @@ let webpackConfig = {
       syntax: 'scss',
     }),
     new FriendlyErrorsWebpackPlugin(),
+    // purgecss
+    // new PurgecssPlugin({
+    //   paths: glob.sync([
+    //     'app/**/*.php',
+    //     'resources/views/**/*.php',
+    //     'resources/assets/scripts/**/*.js',
+    //   ]),
+    //   // whitelist: [ // Only if you need it!
+    //   //   'pr3', 'pv2', 'ph3',
+    //   //   'mb1',
+    //   //   'input',
+    //   //   'tracked-mega'
+    //   // ],
+    // }),
   ],
 };
 

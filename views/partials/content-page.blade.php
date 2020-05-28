@@ -1,5 +1,5 @@
-<div class="main__box main__box--image" style="background-image: url('{{ the_post_thumbnail_url('large') }}');"></div>
-<div class="main__box main__box--alt">
+<div class="h-screen/2 lg:w-1/2 bg-center bg-cover bg-no-repeat lg:h-screen lg:max-h-screen" style="background-image: url('{{ the_post_thumbnail_url('large') }}');"></div>
+<div class="lg:w-1/2 p-10 lg:p-16 lg:overflow-y-auto">
     @include('partials.page-header')
     @php the_content() @endphp
 </div>

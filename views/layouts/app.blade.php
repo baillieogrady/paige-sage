@@ -6,7 +6,7 @@
     @include('partials.header') --}}
     {{-- <div class="wrap container" role="document">
       <div class="content"> --}}
-        <main class="main">
+        <main class="main font-sans flex flex-col lg:flex-row lg:h-screen lg:overflow-hidden lg:items-center">
           @yield('content')
         </main>
         {{-- @if (App\display_sidebar())
