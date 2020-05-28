@@ -59,6 +59,14 @@ let webpackConfig = {
         ],
       },
       {
+        test: /\.jsx$/,
+        exclude: [/(node_modules|bower_components)(?![/|\\](bootstrap|foundation-sites))/],
+        loader: 'babel',
+        query: {
+          presets: ['es2015', 'react', 'stage-0'],
+        },
+      },
+      {
         test: /\.css$/,
         include: config.paths.assets,
         use: ExtractTextPlugin.extract({
@@ -182,20 +190,6 @@ let webpackConfig = {
       syntax: 'scss',
     }),
     new FriendlyErrorsWebpackPlugin(),
-    // purgecss
-    // new PurgecssPlugin({
-    //   paths: glob.sync([
-    //     'app/**/*.php',
-    //     'resources/views/**/*.php',
-    //     'resources/assets/scripts/**/*.js',
-    //   ]),
-    //   // whitelist: [ // Only if you need it!
-    //   //   'pr3', 'pv2', 'ph3',
-    //   //   'mb1',
-    //   //   'input',
-    //   //   'tracked-mega'
-    //   // ],
-    // }),
   ],
 };
 
