@@ -8,6 +8,12 @@ const PurgecssPlugin = require('purgecss-webpack-plugin');
 
 const config = require('./config');
 
+class TailwindExtractor {
+  static extract(content) {
+    return content.match(/[A-z0-9-:\/]+/g) || [];
+  }
+}
+
 module.exports = {
   plugins: [
     new ImageminPlugin({
@@ -39,6 +45,12 @@ module.exports = {
         'views/**/*.php',
         'resources/assets/scripts/**/*.js',
       ]),
+      extractors: [
+        {
+          extractor: TailwindExtractor,
+          extensions: ["js", "php"]
+        }
+      ],
     })
   ],
 };
